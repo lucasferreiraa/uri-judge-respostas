@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+# URI Judge - Problema 1050
+
+ddd = int(input())
+
+if (ddd == 11):
+	print("Sao Paulo")
+elif (ddd == 19):
+	print("Campinas")
+elif (ddd == 21):
+	print("Rio de Janeiro")
+elif (ddd == 27):
+	print("Vitoria")
+elif (ddd == 31):
+	print("Belo Horizonte")
+elif (ddd == 32):
+	print("Juiz de Fora")
+elif (ddd == 61):
+	print("Brasilia")
+elif (ddd == 71):
+	print("Salvador")
+else:
+	print("DDD nao cadastrado")
